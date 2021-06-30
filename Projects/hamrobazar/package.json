@@ -1,0 +1,14 @@
+{
+  "name": "hamrobazar",
+  "version": "0.0.0",
+  "private": true,
+  "type":"module", 
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  }
+}
